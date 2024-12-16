@@ -6,8 +6,5 @@ def get_multiplied_digits(number):
     else:
         return int(str_number)
 
-result_1 = get_multiplied_digits(40203)
-print(result_1)
-
-result_2 = get_multiplied_digits(402030)
-print(result_2)
+result = get_multiplied_digits(40203)
+print(result)
